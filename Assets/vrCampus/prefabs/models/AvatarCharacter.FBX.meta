@@ -1,0 +1,529 @@
+fileFormatVersion: 2
+guid: 7348593a03551ff4c87fc249b72fb98f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Avatar
+    100002: //RootNode
+    100004: AvatarGeo
+    100006: AvatarHead
+    100008: AvatarLArm1
+    100010: AvatarLArm1 1
+    100012: AvatarLArm2
+    100014: AvatarLArm2 1
+    100016: AvatarLArmCollarbone
+    100018: AvatarLArmCollarbone 1
+    100020: AvatarLArmPalm
+    100022: AvatarLArmPalm 1
+    100024: AvatarLLeg1
+    100026: AvatarLLeg2
+    100028: AvatarLLegAnkle
+    100030: AvatarLLegUpVectorNode
+    100032: AvatarNeckl
+    100034: AvatarPelvis
+    100036: AvatarRibcage
+    100038: AvatarRLeg1
+    100040: AvatarRLeg2
+    100042: AvatarRLegAnkle
+    100044: AvatarRLegUpVectorNode
+    100046: AvatarSpine1
+    100048: AvatarSpine2
+    100050: AvatarSpine3
+    100052: AvatarRArm1
+    100054: AvatarRArm2
+    100056: AvatarRArmCollarbone
+    100058: AvatarRArmPalm
+    100060: AvatarNeck
+    400000: Avatar
+    400002: //RootNode
+    400004: AvatarGeo
+    400006: AvatarHead
+    400008: AvatarLArm1
+    400010: AvatarLArm1 1
+    400012: AvatarLArm2
+    400014: AvatarLArm2 1
+    400016: AvatarLArmCollarbone
+    400018: AvatarLArmCollarbone 1
+    400020: AvatarLArmPalm
+    400022: AvatarLArmPalm 1
+    400024: AvatarLLeg1
+    400026: AvatarLLeg2
+    400028: AvatarLLegAnkle
+    400030: AvatarLLegUpVectorNode
+    400032: AvatarNeckl
+    400034: AvatarPelvis
+    400036: AvatarRibcage
+    400038: AvatarRLeg1
+    400040: AvatarRLeg2
+    400042: AvatarRLegAnkle
+    400044: AvatarRLegUpVectorNode
+    400046: AvatarSpine1
+    400048: AvatarSpine2
+    400050: AvatarSpine3
+    400052: AvatarRArm1
+    400054: AvatarRArm2
+    400056: AvatarRArmCollarbone
+    400058: AvatarRArmPalm
+    400060: AvatarNeck
+    2100000: Avatar
+    4300000: AvatarGeo
+    7400000: avatarModel_04
+    9500000: //RootNode
+    13700000: AvatarGeo
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarRArmCollarbone/AvatarRArm1/AvatarRArm2/AvatarRArmPalm
+    - Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarLArmCollarbone/AvatarLArm1/AvatarLArm2/AvatarLArmPalm
+    - Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarNeckl/AvatarHead
+    - Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarNeck
+    - Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarLArmCollarbone/AvatarLArm1/AvatarLArm2
+    - Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarRArmCollarbone/AvatarRArm1/AvatarRArm2
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: avatarModel_04
+      takeName: avatarModel_04
+      firstFrame: 0
+      lastFrame: 312
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AvatarGeo
+        weight: 1
+      - path: Avatar
+        weight: 1
+      - path: Avatar/AvatarPelvis
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarLLeg1
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarLLeg1/AvatarLLeg2
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarLLeg1/AvatarLLeg2/AvatarLLegAnkle
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarLLegUpVectorNode
+        weight: 0
+      - path: Avatar/AvatarPelvis/AvatarSpine1
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarLArmCollarbone
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarLArmCollarbone/AvatarLArm1
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarLArmCollarbone/AvatarLArm1/AvatarLArm2
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarLArmCollarbone/AvatarLArm1/AvatarLArm2/AvatarLArmPalm
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarNeck
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarNeck/AvatarHead
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarRArmCollarbone
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarRArmCollarbone/AvatarRArm1
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarRArmCollarbone/AvatarRArm1/AvatarRArm2
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarSpine1/AvatarSpine2/AvatarSpine3/AvatarRibcage/AvatarRArmCollarbone/AvatarRArm1/AvatarRArm2/AvatarRArmPalm
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarRLeg1
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarRLeg1/AvatarRLeg2
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarRLeg1/AvatarRLeg2/AvatarRLegAnkle
+        weight: 1
+      - path: Avatar/AvatarPelvis/AvatarRLegUpVectorNode
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: AvatarPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarLLeg1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarRLeg1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarLLeg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarRLeg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarLLegAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarRLegAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarSpine2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarSpine3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarLArmCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarRArmCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarLArm1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarRArm1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarLArm2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarRArm2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarLArmPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarRArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarRibcage
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AvatarNeck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: AvatarCharacter(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarGeo
+      parentName: AvatarCharacter(Clone)
+      position: {x: -0, y: 1.114749, z: 0}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avatar
+      parentName: AvatarCharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000013767875, y: 0.7071068, z: 0.7071067, w: 0.00000019949603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarPelvis
+      parentName: Avatar
+      position: {x: -0, y: 9.094947e-15, z: 0.6576675}
+      rotation: {x: 0, y: 0, z: 6.600236e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarLLeg1
+      parentName: AvatarPelvis
+      position: {x: 0.15255865, y: 0.00000007633004, z: -0.06549812}
+      rotation: {x: 0.024686575, y: 0.9992156, z: 0.030849393, w: 0.0026764763}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999994}
+    - name: AvatarLLeg2
+      parentName: AvatarLLeg1
+      position: {x: -0.000000009536743, y: -0.00000010967254, z: 0.27699322}
+      rotation: {x: 0.06264557, y: -0.0033193275, z: 0.001779715, w: 0.99802876}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: AvatarLLegAnkle
+      parentName: AvatarLLeg2
+      position: {x: 0.000000009536743, y: 5.9604643e-10, z: 0.30772924}
+      rotation: {x: -0.27889907, y: 0.003811224, z: -0.022721559, w: 0.960044}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: AvatarLLegUpVectorNode
+      parentName: AvatarPelvis
+      position: {x: 0.15422156, y: 0.17127404, z: -0.3419622}
+      rotation: {x: 0, y: 0, z: 6.6002366e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarSpine1
+      parentName: AvatarPelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.344875e-29, y: 3.5527137e-15, z: 6.600236e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarSpine2
+      parentName: AvatarSpine1
+      position: {x: 4.5474734e-15, y: 0, z: 0.15525542}
+      rotation: {x: -7.1054274e-15, y: -3.5527137e-15, z: 6.600236e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarSpine3
+      parentName: AvatarSpine2
+      position: {x: 4.5474734e-15, y: 0, z: 0.15525542}
+      rotation: {x: -7.1054274e-15, y: -4.68975e-29, z: 6.600236e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarRibcage
+      parentName: AvatarSpine3
+      position: {x: -0, y: -2.728484e-14, z: 0.15525542}
+      rotation: {x: -7.1054274e-15, y: -4.68975e-29, z: 6.600236e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarLArmCollarbone
+      parentName: AvatarRibcage
+      position: {x: 0.02770754, y: -0.000000004321191, z: 0.08632675}
+      rotation: {x: 8.5952066e-17, y: 0.7878979, z: -8.5952066e-17, w: 0.6158059}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarLArm1
+      parentName: AvatarLArmCollarbone
+      position: {x: -0, y: -1.8189894e-14, z: 0.20972842}
+      rotation: {x: 0.021700695, y: -0.11434154, z: -0.0082501685, w: 0.9931702}
+      scale: {x: 0.9999982, y: 1.0000004, z: 1.0000017}
+    - name: AvatarLArm2
+      parentName: AvatarLArm1
+      position: {x: 0.000000076293944, y: -0.0000000011920929, z: 0.27406117}
+      rotation: {x: -0.04487885, y: -0.0000055889054, z: 0.00000022903492, w: 0.99899244}
+      scale: {x: 1.0000069, y: 1.0000007, z: 0.99999225}
+    - name: AvatarLArmPalm
+      parentName: AvatarLArm2
+      position: {x: -0, y: 0.0000000047683715, z: 0.22286095}
+      rotation: {x: 0.0024673874, y: -0.0024744477, z: 0.70710236, w: 0.7071026}
+      scale: {x: 1.0000062, y: 1.0000166, z: 0.99997675}
+    - name: AvatarNeck
+      parentName: AvatarRibcage
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 6.6002366e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarHead
+      parentName: AvatarNeck
+      position: {x: -9.094947e-15, y: 1.8189894e-14, z: 0.19957335}
+      rotation: {x: -7.1054274e-15, y: -4.68975e-29, z: 6.600236e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AvatarRArmCollarbone
+      parentName: AvatarRibcage
+      position: {x: -0.027707543, y: -0.000000004321209, z: 0.08632675}
+      rotation: {x: -1.053759e-17, y: -0.7878979, z: 1.053759e-17, w: 0.615806}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: AvatarRArm1
+      parentName: AvatarRArmCollarbone
+      position: {x: 0.000000076293944, y: 0, z: 0.20972845}
+      rotation: {x: 0.021642126, y: 0.12132089, z: 0.008402468, w: 0.9923418}
+      scale: {x: 0.9999985, y: 0.99999976, z: 1.0000021}
+    - name: AvatarRArm2
+      parentName: AvatarRArm1
+      position: {x: 0.000000076293944, y: 0.0000000011920929, z: 0.2740612}
+      rotation: {x: -0.044878807, y: 0.0000055608834, z: -0.00000026759153, w: 0.99899244}
+      scale: {x: 0.99999285, y: 0.99999917, z: 1.000008}
+    - name: AvatarRArmPalm
+      parentName: AvatarRArm2
+      position: {x: -0, y: 0.0000000023841857, z: 0.22286095}
+      rotation: {x: 0.0024674265, y: 0.002474466, z: -0.70710236, w: 0.70710266}
+      scale: {x: 0.9999898, y: 0.99998647, z: 1.0000232}
+    - name: AvatarRLeg1
+      parentName: AvatarPelvis
+      position: {x: -0.15255865, y: 0.00000007632997, z: -0.065498196}
+      rotation: {x: -0.02441893, y: 0.9992226, z: 0.030836156, w: -0.0026670713}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: AvatarRLeg2
+      parentName: AvatarRLeg1
+      position: {x: 0.000000047683713, y: -0.00000012397766, z: 0.27699292}
+      rotation: {x: 0.062621355, y: 0.0032779041, z: -0.0017797216, w: 0.9980304}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000004}
+    - name: AvatarRLegAnkle
+      parentName: AvatarRLeg2
+      position: {x: -0.000000009536743, y: -0.000000002980232, z: 0.30772856}
+      rotation: {x: -0.27905586, y: -0.002559031, z: 0.022132525, w: 0.96001637}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: AvatarRLegUpVectorNode
+      parentName: AvatarPelvis
+      position: {x: -0.15422156, y: 0.17127404, z: -0.3419622}
+      rotation: {x: 0, y: 0, z: 6.6002366e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
