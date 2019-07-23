@@ -19,12 +19,29 @@ public class studentTrackingScript : MonoBehaviour {
     Quaternion controllerRot;
     bool hasController;
 
+    string joystickName;
+    bool isTPTouched;
+    bool isTPPressed;
+    float trigger;
+    float tpHorizontal;
+    float tpVertical;
+
+    const string TPTOUCHED = "TPTouched";
+    const string TPPRESSED = "TPPressed";
+    const string TRIGGER = "Trigger";
+    const string TPHORIZONTAL = "TPHorizontal";
+    const string TPVERTICAL = "TPVertical";
+
+    string debugInfo;
+
     // Once you complete this module, we'll keep your Update function active
     // to drive the map display
     void Update () {
+        debugInfo = "";
         GetNodeStates();
         headsetUpdate();
         controllerUpdate();
+        updateControllerInfo();
         trackingScreen.TrackingInfo(
             XRDevice.model, 
             XRDevice.GetTrackingSpaceType(), 
@@ -36,6 +53,15 @@ public class studentTrackingScript : MonoBehaviour {
             CalculateFPS(), 
             XRSettings.renderViewportScale
         );
+        trackingScreen.ControllerInfo(
+            joystickName, 
+            isTPTouched, 
+            isTPPressed, 
+            trigger, 
+            tpHorizontal, 
+            tpVertical
+        );
+        trackingScreen.DebugInfo(debugInfo);
     }
 
     private void Awake()
@@ -64,6 +90,24 @@ public class studentTrackingScript : MonoBehaviour {
     private void HandleNodeAdded(XRNodeState obj)
     {
         trackingScreen.TrackingEvent(TrackingDisplay.TrackingEventType.nodeAdded, obj);
+    }
+
+    void updateControllerInfo()
+    {
+        if(Input.GetJoystickNames().Length > 0)
+            joystickName = Input.GetJoystickNames()[0];
+        isTPTouched = Input.GetButton(TPTOUCHED);
+        isTPPressed = Input.GetButton(TPPRESSED);
+        trigger = Input.GetAxis(TRIGGER);
+        tpHorizontal = Input.GetAxis(TPHORIZONTAL);
+        tpVertical = Input.GetAxis(TPVERTICAL);
+
+        // debugInfo += "\n" + joystickName;
+        debugInfo += "\n touched:" + isTPTouched.ToString();
+        debugInfo += "\n pressed:" + isTPPressed.ToString();
+        debugInfo += "\n trigger:" + trigger.ToString();
+        debugInfo += "\n horizontal:" + tpHorizontal.ToString();
+        debugInfo += "\n vertical:" + tpVertical.ToString();
     }
 
     void GetNodeStates()
@@ -102,7 +146,7 @@ public class studentTrackingScript : MonoBehaviour {
                     nodeState.TryGetPosition(out controllerPos);
                     nodeState.TryGetRotation(out controllerRot);
                     hasController = true;
-                    trackingScreen.DebugInfo(nodeState.nodeType.ToString());
+                    debugInfo += "\n" + nodeState.nodeType.ToString();
                     return;
                 }
 
